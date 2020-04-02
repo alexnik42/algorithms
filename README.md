@@ -1,6 +1,6 @@
 # Algorithms
 
-My implementation of popular algorithms Python 3:
+My implementation of popular algorithms in Python 3:
 
 **Randomized algorithms**
 
