@@ -1,6 +1,6 @@
 # Algorithms
 
-My implementation of popular algorithms
+My implementation of popular algorithms:
 
 **Randomized algorithms**
 
