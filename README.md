@@ -5,7 +5,7 @@ My implementation of popular algorithms in Python 3:
 
 **Divide-and-conquer algorithms**
 
-* Randomized QuickSort algorithm (1961) - a commonly used algorithm for sorting. It works by randomly selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. [[Description](https://en.wikipedia.org/wiki/Quicksort)] [[Code](./randomized_quick_sort.py)]
+* Randomized QuickSort algorithm (1961) - a commonly used algorithm for sorting with average running time of O(*n* log *n*) . It works by randomly selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. [[Description](https://en.wikipedia.org/wiki/Quicksort)] [[Code](./randomized_quick_sort.py)]
 
 
 **Randomized algorithms**
