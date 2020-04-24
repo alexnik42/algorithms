@@ -15,3 +15,7 @@ My implementation of popular algorithms in Python 3:
 **Graph search**
 
 * Kosaraju's algorithm (1978) - an algorithm to find the strongly connected components [[Wiki](https://en.wikipedia.org/wiki/Strongly_connected_component)] of a directed graph using two passes of depth-first search with linear running time of O(n + m), which is asymptotically optimal because there is a matching lower bound (any algorithm must examine all vertices and edges). [[Description](https://en.wikipedia.org/wiki/Kosaraju's_algorithm)] [[Code](./kosaraju.py)]
+
+**Greedy algorithms**
+
+* Clustering - an algorithm to calculate the largest value of k such that there is a k-clustering with spacing at least 3 (can be easily modified to use different spacing condition) with nodes represented in binary form. [[Description](https://en.wikipedia.org/wiki/Cluster_analysis)] [[Code](./clustering.py)]
