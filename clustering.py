@@ -1,4 +1,5 @@
 '''
+
 This algorithm calculates the largest value of k such that there is a k-clustering with spacing at least 3.
 
 The format of data set is:
@@ -28,7 +29,6 @@ n_bits = 24
 distances = [0] # An array of bit-masks for the distances
 
 # Calculate bit-masks for distances < 3 
-
 [distances.append(1 << i) for i in range(n_bits)] # Distances equal to 1
 
 for i in range(0, n_bits - 1): # Distances equal to 2
@@ -38,7 +38,6 @@ for i in range(0, n_bits - 1): # Distances equal to 2
         distances.append(d_1^d_2)
 
 # Read input file
-
 with open('file_name.txt', 'r') as file:
     for line in file:
         l = [s for s in line.split()]
@@ -52,13 +51,11 @@ for i in range(len(G)):
         V[G[i]].add(i)
 
 # Initialize UnionFind-instance
-
 my_set = set([i for i in range(len(G))])
 u_find = UnionFind(my_set)
 
 # Iterate through nodes and distances, XOR each key with the distances to check, whether the resulting node exists. 
 # If yes - call union() to merge their respective sets in UnionFind
-
 for key_1, value in V.items():
     for i in range(len(distances)):
         key_2 = key_1^distances[i]
@@ -69,7 +66,6 @@ for key_1, value in V.items():
                     u_find.union(value_1, value_2)
 
 # Create a set of clusters' names and output their quantity (k)
-
 names_of_clusters = set([u_find[x] for x in my_set])
 k = len(names_of_clusters) 
 print(k)
