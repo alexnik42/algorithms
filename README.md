@@ -19,3 +19,4 @@ My implementation of popular algorithms in Python 3:
 **Greedy algorithms**
 
 * Clustering - an algorithm to calculate the largest value of k such that there is a k-clustering with spacing at least 3 (can be easily modified to use different spacing condition) with nodes represented in binary form. [[Description](https://en.wikipedia.org/wiki/Cluster_analysis)] [[Code](./clustering.py)]
+* Huffman's algorithm (1952) - an algorithm to obtain optimal codes (in binary form) for symbols given their frequences with running time of O(*n* log *n*). Implementation using heap and recursion. [[Description](https://en.wikipedia.org/wiki/Huffman_coding)] [[Code](./huffman.py)]
