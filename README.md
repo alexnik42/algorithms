@@ -15,6 +15,7 @@ My implementation of popular algorithms in Python 3:
 **Graph search**
 
 * Kosaraju's algorithm (1978) - an algorithm to find the strongly connected components [[Wiki](https://en.wikipedia.org/wiki/Strongly_connected_component)] of a directed graph using two passes of depth-first search with linear running time of O(n + m), which is asymptotically optimal because there is a matching lower bound (any algorithm must examine all vertices and edges). [[Description](https://en.wikipedia.org/wiki/Kosaraju's_algorithm)] [[Code](./kosaraju.py)]
+* 2-satisfiability problem (2-SAT) - a computational problem of assigning values to variables, each of which has two possible values, in order to satisfy a system of constraints on pairs of variables. This problem can be solved in polynomial time. The algorithm uses strongly connected components (Kosaraju's algorithm) and outputs whether the given instance is satisfiable or not. [[Description](https://en.wikipedia.org/wiki/2-satisfiability)] [[Code](./2-sat.py)]
 
 **Greedy algorithms**
 
